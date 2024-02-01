@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+background-image: linear-gradient(to right,#010220,#000);
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center; /*y not x */
+}
+
+.container{
+    background-image: 
+    linear-gradient(to right,#01022de5 30%, rgba(0, 0, 0, 0.527)) ,
+    url(./AVATER.webp);
+    background-position: center;
+background-size: cover;    background-color: red;
+    width: 90%;
+    height: 640px;
+}
+
+.container:hover{  
+   
+    background-image: 
+    linear-gradient(to right,#01022de5 30%,transparent),
+    url(./AVATER.webp);
+}
+
+header{
+    display: flex;
+    justify-content: space-between; /*عشان تعمل مسافة بين الوغو و البار*/
+    align-items: center; /*عشان توسط كل اشي*/
+    padding: 10px;
+}
+
+a{
+    color: aquamarine;
+    text-decoration: none; /*عشان تشيل العلامة الي تحت الينكات*/
+}
+
+.logo{
+    color: whitesmoke;
+    font-size: 32px;
+    text-transform: uppercase; /*عشان تكبر الحروف*/
+    margin: -5px;
+}
+
+ul{
+    width: 50%;
+    list-style: none; /*عشان تشيل النقط*/
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+ul a{
+    border-bottom: wheat solid transparent;
+}
+
+ul a:hover{
+    border-bottom: 2px solid whitesmoke;
+}
+
+.text{
+    color: aqua;
+    width: 50%;
+    margin-top: 60px;
+    padding: 30px;}
+.text h2{
+    font-size: 100px;
+     text-transform: uppercase;
+     
+}
+
+.text p{
+    line-height: 20px;
+    letter-spacing: 1px;
+    width: 400px;
+    height: auto;
+    padding: 10px 0px;
+}
+
+.text button{
+    color: #010220;
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 13px;
+    border-bottom: wheat solid transparent;
+ }
+
+ .text button:hover{
+    background-color: transparent; /* */
+    border-color: beige;
+    color: antiquewhite;
+    cursor: pointer;
+}
